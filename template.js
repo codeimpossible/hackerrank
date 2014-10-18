@@ -1,17 +1,21 @@
+/*
+*/
+
+var eol = require('os').EOL;
+
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
 
 var input = "";
 
 process.stdin.on('data', function (data) {
-    input += data;
+  input += data;
 });
 
 
 // add problem code here:
 
 function handleInput(lines) {
-    return (lines[0] * 1) + (lines[1] * 1);
 }
 
 // end problem code
@@ -19,9 +23,8 @@ function handleInput(lines) {
 
 
 process.stdin.on('end', function () {
-    var lines = __input_stdin.split("\n");
+  var lines = input.split(eol);
 
-    res = handleInput(lines);
-
-    process.stdout.write(""+res+"\n");
+  var results = handleInput(lines);
+  process.stdout.write(results.join(eol));
 });
