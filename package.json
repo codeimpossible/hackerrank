@@ -1,0 +1,28 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mock-stdin": "^0.3.0"
+  },
+  "devDependencies": {
+    "mock-stdin": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeimpossible/hackerrank"
+  },
+  "author": "Jared Barboza <jared.m.barboza@gmail.com> (http://codeimpossible.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeimpossible/hackerrank/issues"
+  },
+  "homepage": "https://github.com/codeimpossible/hackerrank"
+}
