@@ -16,6 +16,17 @@ process.stdin.on('data', function (data) {
 // add problem code here:
 
 function handleInput(lines) {
+  lines.shift(); // discard the first line
+  var results = [];
+
+  for (var i = 0, l = lines.length; i < l; i++) {
+    var line = lines[i];
+    if(line) {
+
+    }
+  }
+
+  return results;
 }
 
 // end problem code
